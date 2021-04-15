@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html xmlns:th="https://www.thymeleaf.org" lang="ja">
+  <head>
+    <title>ログインしました</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  </head>
+  <body>
+    <h1>Result</h1>
+    <p th:text="|ユーザ名: ${login.id}|"></p>
+    <p th:text="|パスワード: ${login.pwd}|"></p>
+    <a href="/login">Submit another login</a>
+  </body>
+</html>
