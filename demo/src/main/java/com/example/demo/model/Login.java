@@ -3,6 +3,7 @@ package com.example.demo.model;
 public class Login {
     private String id;
     private String pwd;
+    private String url;
 
     public String getId() {
         return id;
@@ -18,5 +19,13 @@ public class Login {
     
     public void setPwd(String pwd) {
         this.pwd = pwd;
+    }
+
+    public String getUrl() {
+        return url;
+    }
+
+    public void setUrl(String url) {
+        this.url = url;
     }
 }

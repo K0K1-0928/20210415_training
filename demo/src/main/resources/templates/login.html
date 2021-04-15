@@ -10,6 +10,7 @@
       <p>ユーザ名: <input type="text" th:field="*{id}" /></p>
       <p>パスワード: <input type="password" th:field="*{pwd}" /></p>
       <p>
+        <input type="hidden" name="url" th:value="${url}" />
         <input type="submit" value="ログイン" />
         <input type="reset" value="リセット" />
       </p>

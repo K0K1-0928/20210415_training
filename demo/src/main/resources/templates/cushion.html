@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html xmlns:th="https://www.thymeleaf.org" lang="ja">
+  <head>
+    <title>クッションページ</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  </head>
+  <body>
+    <p>以下のサイトにジャンプしようとしています。よろしいですか？</p>
+    <a th:href="@{${url}}">[[${url}]]</a><br />
+    <a href="/login">ログイン画面へ戻る</a>
+  </body>
+</html>
